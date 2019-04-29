@@ -11,7 +11,7 @@ class Banner():
     _colors = ['red','blue','green','yellow','cyan','cafe','black','lpurple','purple']
 
     _autor = '''
-                                                              ANUBIS
+                                                    Osiris-Framework
                                                         version: 1.0
                                         Autor: Samir Sanchez Garnica
                                                            @sasaga92
@@ -19,14 +19,13 @@ class Banner():
 
     def banner_welcome_1():
         _banner = '''
-
-                       █████╗ ███╗   ██╗██╗   ██╗██████╗ ██╗███████╗
-                      ██╔══██╗████╗  ██║██║   ██║██╔══██╗██║██╔════╝
-                      ███████║██╔██╗ ██║██║   ██║██████╔╝██║███████╗
-                      ██╔══██║██║╚██╗██║██║   ██║██╔══██╗██║╚════██║
-                      ██║  ██║██║ ╚████║╚██████╔╝██████╔╝██║███████║
-                      ╚═╝  ╚═╝╚═╝  ╚═══╝ ╚═════╝ ╚═════╝ ╚═╝╚══════╝
-                                                                                                                                                                                           
+                            ██████╗ ███████╗██╗██████╗ ██╗███████╗
+                            ██╔═══██╗██╔════╝██║██╔══██╗██║██╔════╝
+                            ██║   ██║███████╗██║██████╔╝██║███████╗
+                            ██║   ██║╚════██║██║██╔══██╗██║╚════██║
+                            ╚██████╔╝███████║██║██║  ██║██║███████║
+                            ╚═════╝ ╚══════╝╚═╝╚═╝  ╚═╝╚═╝╚══════╝
+                                                                                                                                
         '''
         print(script_colors(choice(_colors),_banner))
         print(script_colors('lgray',_autor))
@@ -61,8 +60,86 @@ class Banner():
       print(script_colors('lgray',_autor))
 
 
-
     def banner_welcome_3():
+      _banner = """
+                                      
+                                      _ood>H&H&Z?#M#b-\.
+                                  .\HMMMMMR?`\M6b."`' ''``v.
+                               .. .MMMMMMMMMMHMMM#&.      ``~o.
+                             .   ,HMMMMMMMMMM`' '           ?MP?.
+                            . |MMMMMMMMMMM'                `"$b&\\
+                           -  |MMMMHH##M'                     HMMH?
+                          -   TTM|     >..                   \HMMMMH
+                         :     |MM\,#-""$~b\.                `MMMMMM+
+                        .       ``"H&#        -               &MMMMMM|
+                        :            *\\v,#MHddc.             `9MMMMMb
+                        .               MMMMMMMM##\             `"":HM
+                        -          .  .HMMMMMMMMMMRo_.              |M
+                        :             |MMMMMMMMMMMMMMMM#\           :M
+                        -              `HMMMMMMMMMMMMMM'            |T
+                        :               `*HMMMMMMMMMMM'             H'
+                         :                MMMMMMMMMMM|             |T
+                          ;               MMMMMMMM?'              ./
+                           `              MMMMMMH'               ./'
+                            -            |MMMH#'                 .
+                             `           `MM*                . `
+                               _          #M: .    .       .-'
+                                  .          .,         .-'
+                                     '-.-~ooHH__,,v~--`'
+
+              __  __           __      __  __            ____  __                 __
+             / / / /___ ______/ /__   / /_/ /_  ___     / __ \/ /___ _____  ___  / /_
+            / /_/ / __ `/ ___/ //_/  / __/ __ \/ _ \   / /_/ / / __ `/ __ \/ _ \/ __/
+           / __  / /_/ / /__/ ,<    / /_/ / / /  __/  / ____/ / /_/ / / / /  __/ /_
+          /_/ /_/\__,_/\___/_/|_|   \__/_/ /_/\___/  /_/   /_/\__,_/_/ /_/\___/\__/
+
+      """
+      print(script_colors(choice(_colors),_banner))
+      print(script_colors('lgray',_autor))
+
+    def banner_welcome_4():
+      _banner = """
+                            
+                            PPPPP   IIIIIII   N    N
+                            P   PP     I      NN   N   IDENTIFICATION
+                            P   PP     I      N N  N
+                            PPPPP      I      N  N N      PROGRAM
+                            P          I      N   NN
+                            P       IIIIIII   N    N
+
+                            Strike a key when ready ...
+      """
+
+      print(script_colors(choice(_colors),_banner))
+      print(script_colors('lgray',_autor))
+
+    def banner_welcome_5():
+      _banner = """
+                            
+       ______________________________________________________________________________
+      |                                                                              |
+      |                               Kom SuperHack II Logon                         |
+      |______________________________________________________________________________|
+      |                                                                              |
+      |                                                                              |
+      |                                                                              |
+      |                 User Name:          [   security   ]                         |
+      |                                                                              |
+      |                 Password:           [              ]                         |
+      |                                                                              |
+      |                                                                              |
+      |                                                                              |
+      |                                         [ OK ]                               |
+      |______________________________________________________________________________|
+      |                                                                              |
+      |                                                                              |
+      |______________________________________________________________________________|
+      """
+
+      print(script_colors(choice(_colors),_banner))
+      print(script_colors('lgray',_autor))
+
+    def banner_welcome_6():
       _banner = """
                                 ────────▓▓▓▓▓▓▓────────────▒▒▒▒▒▒
                                 ──────▓▓▒▒▒▒▒▒▒▓▓────────▒▒░░░░░░▒▒
@@ -98,7 +175,7 @@ class Banner():
       print(script_colors('lgray',_autor))
 
 
-    def banner_welcome_4():
+    def banner_welcome_7():
       _banner = """
                                       ────────────────────────────────
                                       ───────────────██████████───────
@@ -132,7 +209,7 @@ class Banner():
 
 
 
-    def banner_welcome_5():
+    def banner_welcome_8():
       _banner = """
                         ▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒
                         ▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒░░░░░░░░░░▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒
@@ -171,7 +248,7 @@ class Banner():
       print(script_colors('lgray',_autor))
 
 
-    def banner_welcome_6():
+    def banner_welcome_9():
       _banner = """
                                       ───────█████████████████████
                                       ────████▀─────────────────▀████
@@ -213,7 +290,7 @@ class Banner():
       print(script_colors(choice(_colors),_banner))
       print(script_colors('lgray',_autor))
 
-    def banner_welcome_7():
+    def banner_welcome_10():
       _banner = """
                             ░░░░░░░░░░░░░░░░░░░░░░█████████
                             ░░███████░░░░░░░░░░███▒▒▒▒▒▒▒▒███
@@ -237,6 +314,6 @@ class Banner():
 
 
 
-    choice([banner_welcome_1, banner_welcome_2, banner_welcome_3, banner_welcome_4, banner_welcome_5, banner_welcome_6, banner_welcome_7])()
+    choice([banner_welcome_1, banner_welcome_2, banner_welcome_3, banner_welcome_4, banner_welcome_5, banner_welcome_6, banner_welcome_7, banner_welcome_8, banner_welcome_9, banner_welcome_10])()
 
 

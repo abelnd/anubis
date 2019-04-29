@@ -2,6 +2,13 @@
 # -*- coding: utf-8 -*-
 #autor samir sanchez garnica @sasaga92
 
+# importando libreria dependiendo del sistema operativo
+import sys
+if sys.platform == 'win32':
+    # con esto funcionaria para windows
+    from colorama import init
+    init() 
+
 
 def script_colors(color_type, text):
     color_end = '\033[0m'

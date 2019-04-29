@@ -4,9 +4,19 @@
 
 import os,sys,re,string
 from utilities.colors import * # import utilites.color
-import pefile, peutils,magic, hashlib
+
+import pefile, peutils,hashlib
 import time
 from collections import namedtuple
+
+# importando libreria dependiendo del sistema operativo
+import sys
+if sys.platform == 'win32':
+	from winmagic import magic
+else:
+	import magic
+
+
 
 
 class interpreter(object):
